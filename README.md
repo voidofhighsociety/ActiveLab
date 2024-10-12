@@ -1,58 +1,66 @@
 <h1>SIEM Home Lab</h1>
 
- ### [YouTube Demonstration](https://youtu.be/7eJexJVCqJo)
 
 <h2>Description</h2>
-Project consists of a simple PowerShell script that walks the user through "zeroing out" (wiping) any drives that are connected to the system. The utility allows you to select the target disk and choose the number of passes that are performed. The PowerShell script will configure a diskpart script file based on the user's selections and then launch Diskpart to perform the disk sanitization.
+I established a home lab featuring Elastic SIEM alongside a Kali VM. I configured the Elastic Beats agent to forward data from the Kali VM to the SIEM. Utilizing Nmap, I generated security events on the Kali VM and then queried and analyzed the logs in the SIEM through the Elastic web interface. Additionally, I developed a dashboard to visualize security events and set up alerts to detect these events effectively.
 <br />
 
 
 <h2>Languages and Utilities Used</h2>
 
-- <b>PowerShell</b> 
-- <b>Diskpart</b>
+- <b>Bash</b> 
 
 <h2>Environments Used </h2>
 
-- <b>Windows 10</b> (21H2)
+- <b>Elastic SIEM</b>
+- <b>Virtual Box</b>
+- <b>Kali VM</b>
 
 <h2>Program walk-through:</h2>
 
 <p align="center">
-Launch the utility: <br/>
-<img src="https://i.imgur.com/62TgaWL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Setup Elastic Account: <br/>
+<img src="https://i.imgur.com/K7h238x.png" height="80%" width="80%" alt="SIEM Lab Steps"/>
 <br />
 <br />
-Select the disk:  <br/>
-<img src="https://i.imgur.com/tcTyMUE.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Download Kali VM:  <br/>
+<img src="https://i.imgur.com/AP0w2ka.png" height="80%" width="80%" alt="SIEM Lab Steps"/>
 <br />
 <br />
-Enter the number of passes: <br/>
-<img src="https://i.imgur.com/nCIbXbg.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Download Virtual Box: <br/>
+<img src="https://i.imgur.com/bZwzmSP.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Confirm your selection:  <br/>
-<img src="https://i.imgur.com/cdFHBiU.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Add Kali VM to Virtual Box:  <br/>
+<img src="https://i.imgur.com/K6Ez3NW.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Wait for process to complete (may take some time):  <br/>
-<img src="https://i.imgur.com/JL945Ga.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Setup Defend Inetgration on Elastic and add to Kali VM:  <br/>
+<img src="https://i.imgur.com/LCfeybq.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Sanitization complete:  <br/>
-<img src="https://i.imgur.com/K71yaM2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Check Status:  <br/>
+<img src="https://i.imgur.com/R2UeFEu.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Observe the wiped disk:  <br/>
-<img src="https://i.imgur.com/AeZkvFQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Run Nmap command:  <br/>
+<img src="https://i.imgur.com/xZ24ifF.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+Check logs on Elastic stack:  <br/>
+<img src="https://i.imgur.com/ZTH550X.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+Create Visualization:  <br/>
+<img src="https://i.imgur.com/j27tKZl.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+Create Rule:  <br/>
+<img src="https://i.imgur.com/luykfwP.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+Create Email Alert:  <br/>
+<img src="https://i.imgur.com/UEWJTDc.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 
-<!--
- ```diff
-- text in red
-+ text in green
-! text in orange
-# text in gray
-@@ text in purple (and bold)@@
-```
---!>
+
