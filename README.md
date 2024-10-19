@@ -28,39 +28,39 @@ Download Kali VM:  <br/>
 <br />
 <br />
 Download Virtual Box: <br/>
-<img src="https://i.imgur.com/bZwzmSP.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/bZwzmSP.png" height="80%" width="80%" alt="SIEM Lab Steps"/>
 <br />
 <br />
 Add Kali VM to Virtual Box:  <br/>
-<img src="https://i.imgur.com/K6Ez3NW.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/K6Ez3NW.png" height="80%" width="80%" alt="SIEM Lab Steps"/>
 <br />
 <br />
 Setup Defend Inetgration on Elastic and add to Kali VM:  <br/>
-<img src="https://i.imgur.com/LCfeybq.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/LCfeybq.png" height="80%" width="80%" alt="SIEM Lab Steps"/>
 <br />
 <br />
 Check Status:  <br/>
-<img src="https://i.imgur.com/R2UeFEu.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/R2UeFEu.png" height="80%" width="80%" alt="SIEM Lab Steps"/>
 <br />
 <br />
 Run Nmap command:  <br/>
-<img src="https://i.imgur.com/xZ24ifF.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/xZ24ifF.png" height="80%" width="80%" alt="SIEM Lab Steps"/>
 <br />
 <br />
 Check logs on Elastic stack:  <br/>
-<img src="https://i.imgur.com/ZTH550X.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/ZTH550X.png" height="80%" width="80%" alt="SIEM Lab Steps"/>
 <br />
 <br />
 Create Visualization:  <br/>
-<img src="https://i.imgur.com/j27tKZl.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/j27tKZl.png" height="80%" width="80%" alt="SIEM Lab Steps"/>
 <br />
 <br />
 Create Rule:  <br/>
-<img src="https://i.imgur.com/luykfwP.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/luykfwP.png" height="80%" width="80%" alt="SIEM Lab Steps"/>
 <br />
 <br />
 Create Email Alert:  <br/>
-<img src="https://i.imgur.com/UEWJTDc.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/UEWJTDc.png" height="80%" width="80%" alt="SIEM Lab Steps"/>
 </p>
 
 
